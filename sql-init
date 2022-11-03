@@ -1,0 +1,3 @@
+CREATE USER 'csci180_admin'@'localhost' IDENTIFIED BY 'C180_Admin_Pw';
+CREATE DATABASE student_planner;
+GRANT ALL PRIVILEGES ON student_planner.* TO 'csci180_admin'@'localhost';
