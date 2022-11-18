@@ -1,11 +1,11 @@
-package app.entity;
+package app.components;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.validation.constraints.NotNull;
 
 @Entity
-public class Grades {
+public class GradesDto {
 	@NotNull
 	@Column
 	private Long student_id;

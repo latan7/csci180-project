@@ -1,4 +1,4 @@
-package app.entity;
+package app.components;
 
 import java.time.LocalDateTime;
 
@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
 @Entity
-public class Event {
+public class EventDto {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)  // autoincrement
 	@NotNull
